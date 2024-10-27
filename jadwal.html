@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyai Zulfa M. Noor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Kyai Zulfa M. Noor</div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#biografi">Biografi</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="jadwal.html">Jadwal Kajian</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jadwal Section -->
+    <section id="jadwal">
+        <h2>Jadwal Kajian</h2>
+        <div class="jadwal-content">
+            <div class="card2">
+                <div class="card-icon"><i class="fas fa-calendar-alt"></i></div>
+                <div class="card-details">
+                    <h3>Senin, 28 Oktober 2024</h3>
+                    <p><i class="fa-solid fa-list"></i> Senin Rutin </p>
+                    <p><i class="fas fa-clock"></i> 19:00 - 21:00 WIB</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Masjid Al-Ikhlas</p>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="card-icon"><i class="fas fa-calendar-alt"></i></div>
+                <div class="card-details">
+                    <h3>Jumat, 1 November 2024</h3>
+                    <p><i class="fa-solid fa-list"></i> Jum`at Rutin</p>
+                    <p><i class="fas fa-clock"></i> 16:00 - 17:30 WIB</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Masjid Raya Bandung</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 | by Kelompok 13</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('nav');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyai Zulfa M. Noor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Kyai Zulfa M. Noor</div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- Tambahkan kode ini di sini -->
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#biografi">Biografi</a></li>
+                <li><a href="video.html">Video </a></li>
+                <li><a href="jadwal.html">Jadwal Kajian</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/t73jifooDjY?si=POHS5uVTwwCpXN7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">KH Zulfa Muhammad Noor Ajibarang</h5>
+                        <p class="card-text">Tasyakuran Khotmil Qur'an Al Ittihad Pekalongan</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal1">View more</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7aVVvPmz_44?si=x_BS_MJAA6vgzkgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">KH Zulfa Muhammad Noor Ajibarang</h5>
+                        <p class="card-text">Tasyakuran Khotmil Qur'an Al Ittihad Pekalongan</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal2">View more</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel1">KH Zulfa Muhammad Noor Ajibarang</h5>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/t73jifooDjY?si=POHS5uVTwwCpXN7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="modal-text">
+                        <p>Ini adalah deskripsi lebih lengkap tentang video yang sedang diputar. Teks ini akan muncul di sebelah video dalam modal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel2">KH Zulfa Muhammad Noor Ajibarang</h5>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7aVVvPmz_44?si=x_BS_MJAA6vgzkgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    <div class="modal-text">
+                        <p>Ini adalah deskripsi lebih lengkap tentang video yang sedang diputar. Teks ini akan muncul di sebelah video dalam modal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 | by Kelompok 13</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('nav');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>

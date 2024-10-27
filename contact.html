@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyai Zulfa M. Noor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Kyai Zulfa M. Noor</div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- Tambahkan kode ini di sini -->
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#biografi">Biografi</a></li>
+                <li><a href="video.html">Video </a></li>
+                <li><a href="jadwal.html">Jadwal Kajian</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-content">
+            <div class="contact-details">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=..."></iframe>
+                </div>
+                <div class="contact-info">
+                    <h3>Email: youremail@gmail.com</h3>
+                    <h3>Phone: 0987654321123</h3>
+                    <h3>Alamat: Jl. Flaminggo, Danau Raya</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 | by Kelompok 13</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('nav');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
