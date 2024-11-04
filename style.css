@@ -116,6 +116,7 @@ nav .menu ul li a:hover {
     background-color: #fff;
     padding-top: 80px;
     margin: 0;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
