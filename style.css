@@ -115,6 +115,12 @@ nav .menu ul li a:hover {
 #biografi {
     background-color: #fff;
     padding-top: 80px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #000;
 }
 
 #biografi .container {
