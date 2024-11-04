@@ -169,7 +169,7 @@ nav .menu ul li a:hover {
 
 /* Contact Section */
 #contact {
-    padding-top: 80px;
+    text-align: center;
     margin: 0;
     padding: 100px;
     display: flex;
@@ -181,13 +181,6 @@ nav .menu ul li a:hover {
 
 #contact .container {
     text-align: center;
-    margin: 0;
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #000;
 }
 
 #contact .title {
