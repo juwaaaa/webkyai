@@ -475,6 +475,6 @@ footer p {
 @media (max-width: 768px) {
     /* Contact Section */
     #contact {
-        padding-top: 50px;
+        padding-top: 15px;
     }
 }
