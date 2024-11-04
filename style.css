@@ -117,22 +117,19 @@ nav .menu ul li a:hover {
     padding-top: 80px;
 }
 
-#biografi .biography-content h2 {
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 16px;
+#biografi .container {
+    text-align: center;
 }
 
-#biografi .biography-content h3 {
-    font-size: 28px;
-    margin-bottom: 24px;
+#biografi .title {
+    font-size: 48px;
+    font-weight: bold;
 }
 
-#biografi .biography-content h4 {
-    font-size: 20px;
-    line-height: 1.8;
+#biografi .subtitle {
+    font-size: 18px;
+    margin-top: 10px;
 }
-
 
 /* Jadwal Section */
 #jadwal {
